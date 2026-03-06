@@ -37,20 +37,21 @@ This project demonstrates how modern AI assistants maintain **persistent memory 
 
 # Architecture
 
-
+```
 User
-↓
+ ↓
 Next.js Frontend
-↓
+ ↓
 FastAPI Backend
-↓
+ ↓
 SQLite Memory Store
-↓
+ ↓
 OpenAI Embeddings
-↓
+ ↓
 FAISS Vector Search
-↓
+ ↓
 AI Response
+```
 
 
 ---
