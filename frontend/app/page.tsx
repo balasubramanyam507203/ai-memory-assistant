@@ -40,7 +40,8 @@ export default function Home() {
   const [allMemories, setAllMemories] = useState<AllMemory[]>([]);
   const [loading, setLoading] = useState(false);
 
-  const backendUrl = "http://127.0.0.1:8000";
+  const backendUrl =
+    process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000";
 
   const canSend = useMemo(() => input.trim().length > 0 && !loading, [input, loading]);
 
