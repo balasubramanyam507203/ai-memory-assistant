@@ -44,6 +44,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://ai-memory-assistant-phi.vercel.app",
+        "https://ai-memory-assistant-git-main-balasubramanyam507203s-projects.vercel.app",
+        "https://ai-memory-assistant-qqfgdhl7o-balasubramanyam507203s-projects.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
