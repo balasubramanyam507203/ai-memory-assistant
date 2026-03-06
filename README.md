@@ -1,5 +1,7 @@
 # AI Memory Assistant
 
+**Live Demo:** https://ai-memory-assistant-phi.vercel.app
+
 A full-stack AI assistant that remembers user preferences and goals using long-term semantic memory.
 
 This project demonstrates how modern AI assistants maintain **persistent memory across conversations**.
@@ -35,21 +37,26 @@ This project demonstrates how modern AI assistants maintain **persistent memory 
 
 ---
 
+## Deployment
+
+- **Frontend:** https://ai-memory-assistant-phi.vercel.app
+- **Backend:** https://ai-memory-assistant-tqcg.onrender.com
+
 # Architecture
 
-```
+```text
 User
- ↓
-Next.js Frontend
- ↓
-FastAPI Backend
- ↓
+  ↓
+Next.js Frontend (Vercel)
+  ↓
+FastAPI Backend (Render)
+  ↓
 SQLite Memory Store
- ↓
+  ↓
 OpenAI Embeddings
- ↓
+  ↓
 FAISS Vector Search
- ↓
+  ↓
 AI Response
 ```
 
